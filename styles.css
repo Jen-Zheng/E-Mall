@@ -122,7 +122,7 @@ a img{
   }
 
     .android-navigation .mdl-navigation__link:hover {
-      border-bottom: 4px solid #8bc34a;
+      border-bottom: 4px solid #f4511e;
     }
 
   .android-search-box {
@@ -146,7 +146,7 @@ a img{
 
   .android-drawer-separator {
     height: 1px;
-    background-color: #dcdcdc;
+    background-image: url("background.png");
     margin: 8px 0;
   }
 
