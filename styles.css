@@ -171,8 +171,6 @@ a img{
     }
 
 .android-be-together-section {
-  position: relative;
-  height: 800px;
   width: auto;
   background-image: ('images/background.png');
   background-size: cover;
