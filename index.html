@@ -9,55 +9,6 @@
   }
 
   #myImg:hover {opacity: 0.7;}
-  #myImg2 {
-      border-radius: 5px;
-      cursor: pointer;
-      transition: 0.3s;
-  }
-
-  #myImg2:hover {opacity: 0.7;}
-  #myImg3 {
-      border-radius: 5px;
-      cursor: pointer;
-      transition: 0.3s;
-  }
-
-  #myImg3:hover {opacity: 0.7;}
-  #myImg4 {
-      border-radius: 5px;
-      cursor: pointer;
-      transition: 0.3s;
-  }
-
-  #myImg4:hover {opacity: 0.7;}
-  #myImg5 {
-      border-radius: 5px;
-      cursor: pointer;
-      transition: 0.3s;
-  }
-
-  #myImg5:hover {opacity: 0.7;}
-  #myImg6 {
-      border-radius: 5px;
-      cursor: pointer;
-      transition: 0.3s;
-  }
-
-  #myImg6:hover {opacity: 0.7;}
-  #myImg7 {
-      border-radius: 5px;
-      cursor: pointer;
-      transition: 0.3s;
-  }
-
-  #myImg7:hover {opacity: 0.7;}
-  #myImg8 {
-      border-radius: 5px;
-      cursor: pointer;
-      transition: 0.3s;
-  }
-
-  #myImg8:hover {opacity: 0.7;}
 
   /* The Modal (background) */
   .modal {
@@ -117,7 +68,7 @@
       position: absolute;
       top: 90px;
       right: 500px;
-      color: #FFF;
+      color: #000000;
       font-size: 40px;
       font-weight: bold;
       transition: 0.3s;
@@ -125,7 +76,7 @@
 
   .close:hover,
   .close:focus {
-      color: #f4511e;
+      color: #bbb;
       text-decoration: none;
       cursor: pointer;
   }
@@ -197,7 +148,6 @@
           </button>
           <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
             <a class="mdl-navigation__link mdl-typography--text-lowercase" href="login.html">Login</li>
-            <a class="mdl-navigation__link mdl-typography--text-lowercase" href="signup.html">Sign Up</li>
             <a class="mdl-navigation__link mdl-typography--text-lowercase" href="cart.html">Your Cart</li>
             <a class="mdl-navigation__link mdl-typography--text-lowercase" href="wishlist.html">Wishlist</li>
             <a class="mdl-navigation__link mdl-typography--text-lowercase" href="recentlyviewed.html">Recently viewed</li>
@@ -239,142 +189,57 @@
         <div class="android-be-together-section mdl-typography--text-center">
           <div class="logo-font android-slogan">welcome 2 emall</div>
           <div class="logo-font android-sub-slogan">where all the hip youngsters are shopping</div>
-          <div class="logo-font android-sub-slogan">FEATURED ITEMS</div>
           <div class="logo-font android-create-character">
-  <!--Olive Velvet Skirt -->
-  <img id="myImg6" src="https://cdn.shopify.com/s/files/1/1154/7434/products/KR2174_OLIVE.jpg" alt="Asymmetrical Skirt - $45.00" width="300" height="450">
-
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-      <span class="close">&times;</span>
-      <img class="modal-content" id="img01">
-      <div id="caption"></div>
+            <a href="signup.html" style="color: #f4511e"><img src="images/andy.png"> join</a>
+          </div>
+        </div>
+<h1>
+  <div class="mdl-grid">
+  <div class="mdl-cell mdl-cell--12-col">
+    <div class="logo-font android-sub-slogan">feature items</div>
+  </div>
+  <div class="mdl-cell mdl-cell--2-col">
+    <div class="demo-card-image mdl-card mdl-shadow--2dp" style="background: url('https://cdn.shopify.com/s/files/1/1154/7434/products/KR2174_OLIVE.jpg') center / cover;">
+      <div class="mdl-card__title mdl-card--expand"></div>
+      <div class="mdl-card__actions">
+        <span class="demo-card-image__filename">olive velvet skirt</span>
+      </div>
     </div>
-
-    <script>
-    // Get the modal
-    var modal = document.getElementById('myModal');
-
-    // Get the image and insert it inside the modal - use its "alt" text as a caption
-    var img = document.getElementById('myImg6');
-    var modalImg = document.getElementById("img01");
-    var captionText = document.getElementById("caption");
-    img.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-        modal.style.display = "none";
-    }
-    </script>
-
-  <!--White Sweater -->
-  <img id="myImg5" src="https://cdn.shopify.com/s/files/1/1154/7434/products/KR2329_WHITE.jpg" alt="Asymmetrical Skirt - $45.00" width="300" height="450">
-
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-      <span class="close">&times;</span>
-      <img class="modal-content" id="img01">
-      <div id="caption"></div>
+  </div>
+  <div class="mdl-cell mdl-cell--2-col">
+    <div class="demo-card-image mdl-card mdl-shadow--2dp" style="background: url('https://cdn.shopify.com/s/files/1/1154/7434/products/KR2329_WHITE.jpg') center / cover;">
+      <div class="mdl-card__title mdl-card--expand"></div>
+      <div class="mdl-card__actions">
+        <span class="demo-card-image__filename">white sweater</span>
+      </div>
     </div>
-
-    <script>
-    // Get the modal
-    var modal = document.getElementById('myModal');
-
-    // Get the image and insert it inside the modal - use its "alt" text as a caption
-    var img = document.getElementById('myImg5');
-    var modalImg = document.getElementById("img01");
-    var captionText = document.getElementById("caption");
-    img.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-        modal.style.display = "none";
-    }
-    </script>
-
-  <!--Cream Sweater -->
-  <img id="myImg4" src="https://cdn.shopify.com/s/files/1/1154/7434/products/KR2041_BEIGE_1.JPG" alt="Asymmetrical Skirt - $45.00" width="300" height="450">
-
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-      <span class="close">&times;</span>
-      <img class="modal-content" id="img01">
-      <div id="caption"></div>
+  </div>
+  <div class="mdl-cell mdl-cell--2-col">
+    <div class="demo-card-image mdl-card mdl-shadow--2dp" style="background: url('https://cdn.shopify.com/s/files/1/1154/7434/products/KR2041_BEIGE_1.JPG') center / cover;">
+      <div class="mdl-card__title mdl-card--expand"></div>
+      <div class="mdl-card__actions">
+        <span class="demo-card-image__filename">cream sweater</span>
+      </div>
     </div>
-
-    <script>
-    // Get the modal
-    var modal = document.getElementById('myModal');
-
-    // Get the image and insert it inside the modal - use its "alt" text as a caption
-    var img = document.getElementById('myImg4');
-    var modalImg = document.getElementById("img01");
-    var captionText = document.getElementById("caption");
-    img.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-        modal.style.display = "none";
-    }
-    </script>
-
-  <!--Striped Sweater -->
-  <img id="myImg3" src="https://cdn.shopify.com/s/files/1/1154/7434/products/KR2182_IVORY.jpg" alt="Asymmetrical Skirt - $45.00" width="300" height="450">
-
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-      <span class="close">&times;</span>
-      <img class="modal-content" id="img01">
-      <div id="caption"></div>
+  </div>
+  <div class="mdl-cell mdl-cell--2-col">
+    <div class="demo-card-image mdl-card mdl-shadow--2dp" style="background: url('https://cdn.shopify.com/s/files/1/1154/7434/products/KR2182_IVORY.jpg') center / cover;">
+      <div class="mdl-card__title mdl-card--expand"></div>
+      <div class="mdl-card__actions">
+        <span class="demo-card-image__filename">striped sweater</span>
+      </div>
     </div>
+  </div>
+  <div id="myImg" class="mdl-cell mdl-cell--2-col">
+    <div class="demo-card-image mdl-card mdl-shadow--2dp" style="background: url('https://cdn.shopify.com/s/files/1/1154/7434/products/MR3039_DUSTYROSE_1.jpg') center / cover;">
+      <div class="mdl-card__title mdl-card--expand"></div>
+      <div class="mdl-card__actions">
+        <span class="demo-card-image__filename">dress</span>
+      </div>
+    </div>
+  </div>
 
-    <script>
-    // Get the modal
-    var modal = document.getElementById('myModal');
-
-    // Get the image and insert it inside the modal - use its "alt" text as a caption
-    var img = document.getElementById('myImg3');
-    var modalImg = document.getElementById("img01");
-    var captionText = document.getElementById("caption");
-    img.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-        modal.style.display = "none";
-    }
-    </script>
-
-<!--Dress -->
-<img id="myImg" src="https://cdn.shopify.com/s/files/1/1154/7434/products/MR3039_DUSTYROSE_1.jpg" alt="Asymmetrical Skirt - $45.00" width="300" height="450">
+  <img id="myImg" src="https://cdn.shopify.com/s/files/1/1154/7434/products/KR1915_BLACK.jpg" alt="Asymmetrical Skirt - $45.00" width="300" height="450">
 
   <!-- The Modal -->
   <div id="myModal" class="modal">
@@ -405,103 +270,6 @@
       modal.style.display = "none";
   }
   </script>
-
-  <!--Asymetrical Skirt -->
-  <img id="myImg2" src="https://cdn.shopify.com/s/files/1/1154/7434/products/KR1915_BLACK.jpg" alt="Asymmetrical Skirt - $45.00" width="300" height="450">
-
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-      <span class="close">&times;</span>
-      <img class="modal-content" id="img01">
-      <div id="caption"></div>
-    </div>
-
-    <script>
-    // Get the modal
-    var modal = document.getElementById('myModal');
-
-    // Get the image and insert it inside the modal - use its "alt" text as a caption
-    var img = document.getElementById('myImg2');
-    var modalImg = document.getElementById("img01");
-    var captionText = document.getElementById("caption");
-    img.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-        modal.style.display = "none";
-    }
-    </script>
-    <!--Destroyed Sweater -->
-    <img id="myImg7" src="https://cdn.shopify.com/s/files/1/1154/7434/products/KR1882_BLACK_SIDE.jpg" alt="Asymmetrical Skirt - $45.00" width="300" height="450">
-
-      <!-- The Modal -->
-      <div id="myModal" class="modal">
-        <span class="close">&times;</span>
-        <img class="modal-content" id="img01">
-        <div id="caption"></div>
-      </div>
-
-      <script>
-      // Get the modal
-      var modal = document.getElementById('myModal');
-
-      // Get the image and insert it inside the modal - use its "alt" text as a caption
-      var img = document.getElementById('myImg7');
-      var modalImg = document.getElementById("img01");
-      var captionText = document.getElementById("caption");
-      img.onclick = function(){
-          modal.style.display = "block";
-          modalImg.src = this.src;
-          captionText.innerHTML = this.alt;
-      }
-
-      // Get the <span> element that closes the modal
-      var span = document.getElementsByClassName("close")[0];
-
-      // When the user clicks on <span> (x), close the modal
-      span.onclick = function() {
-          modal.style.display = "none";
-      }
-      </script>
-      <!--Off The Shoulder Top -->
-      <img id="myImg8" src="https://cdn.shopify.com/s/files/1/1154/7434/products/KR2141_IVORY.jpg" alt="Asymmetrical Skirt - $45.00" width="300" height="450">
-
-        <!-- The Modal -->
-        <div id="myModal" class="modal">
-          <span class="close">&times;</span>
-          <img class="modal-content" id="img01">
-          <div id="caption"></div>
-        </div>
-
-        <script>
-        // Get the modal
-        var modal = document.getElementById('myModal');
-
-        // Get the image and insert it inside the modal - use its "alt" text as a caption
-        var img = document.getElementById('myImg8');
-        var modalImg = document.getElementById("img01");
-        var captionText = document.getElementById("caption");
-        img.onclick = function(){
-            modal.style.display = "block";
-            modalImg.src = this.src;
-            captionText.innerHTML = this.alt;
-        }
-
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
-
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function() {
-            modal.style.display = "none";
-        }
-        </script>
 
             </div>
           </div>
