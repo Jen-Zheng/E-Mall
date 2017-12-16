@@ -16,7 +16,7 @@
 
 body {
   margin: 0;
-  background-image: ("images/background.png");
+  background-image: ("images/background.png") !important;
 }
 
 /* Disable ugly boxes around images in IE10 */
