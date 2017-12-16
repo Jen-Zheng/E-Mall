@@ -146,7 +146,7 @@ a img{
 
   .android-drawer-separator {
     height: 1px;
-    background-color: #dcdcdc;
+    background-image: ('images/background.png');
     margin: 8px 0;
   }
 
