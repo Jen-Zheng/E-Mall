@@ -233,7 +233,11 @@
           <div class="logo-font android-slogan">welcome 2 depop</div>
             <div class="logo-font android-sub-slogan">FEATURED ITEMS</div>
     <!--Pera Long Sleeve -->
+
+  <div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--3-col">
     <img id="myImg6" src="https://d2h1pu99sxkfvn.cloudfront.net/b0/8201772/359007354_pxawYDTruB/P8.jpg" alt="Pera Long Sleeve - $40.00" width="300" height="300">
+
 
     <!-- The Modal -->
     <div id="myModal" class="modal">
@@ -264,8 +268,12 @@
         modal.style.display = "none";
     }
     </script>
+    <br>
+    <p>Pera Long Sleeve - $40.00</p>
+  </div>
 
   <!--Peas In A Pod -->
+<div class="mdl-cell mdl-cell--3-col">
   <img id="myImg5" src="https://d2h1pu99sxkfvn.cloudfront.net/b0/1717573/350190659_R4tHnVfTcy/P8.jpg" alt="Peas in a Pod - $65.00" width="300" height="300">
 
     <!-- The Modal -->
@@ -297,8 +305,11 @@
         modal.style.display = "none";
     }
     </script>
-
+    <br>
+    <p>Peas in a Pod - $65.00</p>
+  </div>
   <!--American Psycho Hoodie -->
+<div class="mdl-cell mdl-cell--3-col">
   <img id="myImg4" src="https://d2h1pu99sxkfvn.cloudfront.net/b0/8099576/358708443_XvNRUoDzSA/P8.jpg" alt="American Psycho Hoodie - $35.00" width="300" height="300">
 
     <!-- The Modal -->
@@ -330,42 +341,48 @@
         modal.style.display = "none";
     }
     </script>
+    <br>
+    <p>American Psycho Hoodie - $35.00</p>
+  </div>
+    <!--Tropical Top -->
+  <div class="mdl-cell mdl-cell--3-col">
+    <img id="myImg4" src="https://d2h1pu99sxkfvn.cloudfront.net/b0/6648682/346634129_Il8951ncYm/P8.jpg" alt="American Psycho Hoodie - $35.00" width="300" height="300">
 
-  <!--Tropical Top -->
-  <img id="myImg3" src="https://d2h1pu99sxkfvn.cloudfront.net/b0/6648682/346634129_Il8951ncYm/P8.jpg" alt="Tropical Top - $15.00" width="300" height="300">
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+      </div>
 
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-      <span class="close">&times;</span>
-      <img class="modal-content" id="img01">
-      <div id="caption"></div>
+      <script>
+      // Get the modal
+      var modal = document.getElementById('myModal');
+
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById('myImg4');
+      var modalImg = document.getElementById("img01");
+      var captionText = document.getElementById("caption");
+      img.onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt;
+      }
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+          modal.style.display = "none";
+      }
+      </script>
+      <br>
+      <p>Tropical Top - $15.00</p>
     </div>
-
-    <script>
-    // Get the modal
-    var modal = document.getElementById('myModal');
-
-    // Get the image and insert it inside the modal - use its "alt" text as a caption
-    var img = document.getElementById('myImg3');
-    var modalImg = document.getElementById("img01");
-    var captionText = document.getElementById("caption");
-    img.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-        modal.style.display = "none";
-    }
-    </script>
-<br></br>
-
 <!--Dress -->
+<div class="mdl-grid">
+  <div class="mdl-cell mdl-cell--3-col">
 <img id="myImg" src="https://d2h1pu99sxkfvn.cloudfront.net/b0/8094599/355568750_6ljoH8k2sz/P8.jpg" alt="Tyger - $30.00" width="300" height="300">
 
   <!-- The Modal -->
@@ -397,8 +414,11 @@
       modal.style.display = "none";
   }
   </script>
-
+  <br>
+  <p>Tyger - $30.00</p>
+</div>
   <!--Crop Crewneck -->
+    <div class="mdl-cell mdl-cell--3-col">
   <img id="myImg2" src="https://d2h1pu99sxkfvn.cloudfront.net/b0/3920651/358108959_nJtv3Pcx8W/P8.jpg" alt="Cropped Crewneck - $18.00" width="300" height="300">
 
     <!-- The Modal -->
@@ -430,7 +450,11 @@
         modal.style.display = "none";
     }
     </script>
+    <br>
+    <p>Cropped Crewneck - $18.00</p>
+  </div>
     <!--Striped Corduroy Pants -->
+<div class="mdl-cell mdl-cell--3-col">
     <img id="myImg7" src="https://d2h1pu99sxkfvn.cloudfront.net/b0/435112/357253144_jHUIJABQzG/P8.jpg" alt="Striped Corduroy Pants - $52.00" width="300" height="300">
 
       <!-- The Modal -->
@@ -462,39 +486,45 @@
           modal.style.display = "none";
       }
       </script>
-<!--image-->
-      <!--Deadstock Halloween Ghosts -->
-      <img id="myImg8" src="https://d2h1pu99sxkfvn.cloudfront.net/b0/1797842/356062773_VtjxSvFPXJ/P8.jpg" alt="Deadstock Halloween Ghosts - $18.00" width="300" height="300">
+<br>
+<p>Striped Corduroy Pants - $52.00</p>
+    </div>
+    <!--Striped Corduroy Pants -->
+<div class="mdl-cell mdl-cell--3-col">
+    <img id="myImg7" src="https://d2h1pu99sxkfvn.cloudfront.net/b0/1797842/356062773_VtjxSvFPXJ/P8.jpg" alt="Striped Corduroy Pants - $52.00" width="300" height="300">
 
-        <!-- The Modal -->
-        <div id="myModal" class="modal">
-          <span class="close">&times;</span>
-          <img class="modal-content" id="img01">
-          <div id="caption"></div>
-          <script>
-          // Get the modal
-          var modal = document.getElementById('myModal');
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('myImg8');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-}
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+      </div>
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+      <script>
+      // Get the modal
+      var modal = document.getElementById('myModal');
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    modal.style.display = "none";
-}
-</script>
-<br></br>
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById('myImg7');
+      var modalImg = document.getElementById("img01");
+      var captionText = document.getElementById("caption");
+      img.onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt;
+      }
 
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
 
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+          modal.style.display = "none";
+      }
+      </script>
+<br>
+<p>Deadstock Halloween Ghosts - $18.00</p>
+    </div>
           </div>
       </div>
     </div>
