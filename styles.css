@@ -185,11 +185,13 @@ a img{
 .android-slogan {
   font-size: 60px;
   padding-top: 160px;
+  color: #f4511e;
 }
 
 .android-sub-slogan {
   font-size: 21px;
   padding-top: 24px;
+  color: #f4511e;
 }
 
 .android-create-character {
