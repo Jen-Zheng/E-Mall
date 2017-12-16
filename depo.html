@@ -139,42 +139,6 @@
 }
 </style>
 </head>
-<script data-cfasync="false" src="/cdn-cgi/scripts/ddc5a536/cloudflare-static/email-decode.min.js"></script><script>
-$(document).ready(function(){
-
-
-var meme1 = localStorage.getItem("meme1");
-var meme2 = localStorage.getItem("meme2");
-var meme3 = localStorage.getItem("meme3");
-
-
-if(meme1 == undefined)
-	localStorage.setItem("meme1", parseInt(200) );
-
-if(meme2 == undefined)
-	localStorage.setItem("meme2", parseInt(200) );
-
-if(meme3 == undefined)
-	localStorage.setItem("meme3", parseInt(200) );
-
-
-$('[data-session-id="meme1"]').text(localStorage.getItem("meme1"));
-$('[data-session-id="meme2"]').text(localStorage.getItem("meme2"));
-$('[data-session-id="meme3"]').text(localStorage.getItem("meme3"));
-
-
-$('.upvote_meme').click(function(){
-var int = $(this).parent().parent().find('.total_counter').text();
-    int = parseInt(int);
-var Storage_id = $(this).parent().parent().find('.total_counter').attr('data-session-id');
-	var newval = int+1;
-localStorage.setItem(Storage_id, newval);
-
-	$(this).parent().parent().find('.total_counter').text(int+1);
-
-});
-});
-</script>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
