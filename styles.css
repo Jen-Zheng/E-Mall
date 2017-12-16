@@ -16,7 +16,7 @@
 
 body {
   margin: 0;
-  background-image: ("images/background.png");
+  background-image: ("images/background.png") !important;
 }
 
 /* Disable ugly boxes around images in IE10 */
@@ -147,7 +147,7 @@ a img{
 
   .android-drawer-separator {
     height: 1px;
-    background-image: ('images/background.png');
+    background-image: ('images/background.png') !important;
     margin: 8px 0;
   }
 
@@ -172,7 +172,7 @@ a img{
     }
 
 .android-be-together-section {
-  background-image: ('images/background.png');
+  background-image: ('images/background.png') !important;
 }
 
 .logo-font {
