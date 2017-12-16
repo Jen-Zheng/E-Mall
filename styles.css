@@ -17,7 +17,7 @@
 body {
   margin: 0;
   background-image: ("images/background.png") !important;
-  cursor: url("images/orange_cursor.png") !important;
+  cursor: url("images/orange_cursor.cur") !important;
 }
 
 /* Disable ugly boxes around images in IE10 */
