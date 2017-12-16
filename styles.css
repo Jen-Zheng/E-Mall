@@ -506,12 +506,14 @@ a img{
     font-size: 26px;
     margin: 0 16px;
     padding-top: 24px;
+    color: #f4511e;
   }
 
   .android-sub-slogan {
     font-size: 16px;
     margin: 0 16px;
     padding-top: 8px;
+    color: #f4511e;
   }
 
   .android-create-character {
