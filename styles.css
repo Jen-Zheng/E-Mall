@@ -511,3 +511,9 @@ a img{
     display: none;
   }
 }
+
+#container {
+  padding: 30px;
+  margin: 40px;
+  background: white;
+}
