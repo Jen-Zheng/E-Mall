@@ -16,7 +16,7 @@
 
 body {
   margin: 0;
-  background-image: ("images/background.png") !important;
+  background-image: url("images/background.png") !important;
 }
 
 /* Disable ugly boxes around images in IE10 */
@@ -195,6 +195,7 @@ a img{
 .android-create-character {
   font-size: 21px;
   padding-top: 400px;
+  background-image: ("images/r")
 }
 
   .android-create-character a {
